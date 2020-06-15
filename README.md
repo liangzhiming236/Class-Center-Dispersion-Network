@@ -14,7 +14,7 @@ This repository contains the code and trained models for our paper Class Center 
 - Fashion-MNIST
 - E-MNIST-letters
 - Not-MNIST
-- Omnilog
+- Omniglot
 
 ### Usage
 
