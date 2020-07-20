@@ -24,6 +24,12 @@ This repository contains the code and trained models for our paper Class Center 
   python convert.py
   ```
 
+- Training a classification model without considering OOD samples:
+
+  ```shell
+  python pre_train.py
+  ```
+
 - Training and test a new model:
 
   ```shell
