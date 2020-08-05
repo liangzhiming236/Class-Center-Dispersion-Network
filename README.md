@@ -10,24 +10,18 @@ This repository contains the code and trained models for our paper Class Center 
 
 ### Experimental data
 
-- MNIST
-- Fashion-MNIST
-- E-MNIST-letters
-- Not-MNIST
-- Omniglot
+- CIFAR10 
+- CIFAR100  
+- TinyImageNet
+- LSUN
+- iSUN
 
 ### Usage
 
-- Converting the dataset to png format:
+- Converting the CIFAR100 to png format:
 
   ```
-  python convert.py
-  ```
-
-- Training a classification model without considering OOD samples:
-
-  ```shell
-  python pre_train.py
+  python convert_cifar100_to_png.py
   ```
 
 - Training and test a new model:
